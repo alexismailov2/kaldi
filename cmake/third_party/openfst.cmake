@@ -3,8 +3,8 @@ include(FetchContent)
 
 FetchContent_Declare(
         openfst
-        GIT_REPOSITORY  https://github.com/kkm000/openfst
-        GIT_TAG         338225416178ac36b8002d70387f5556e44c8d05 # tag win/1.7.2.1
+        GIT_REPOSITORY  https://github.com/alexismailov2/openfst
+        GIT_TAG         048a05308ea9a4209cb5019354c119564c249712 # fix with HAVE_BIN=OFF
 )
 
 FetchContent_GetProperties(openfst)
